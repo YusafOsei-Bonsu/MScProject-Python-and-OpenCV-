@@ -33,9 +33,9 @@ while True:
         roi_color = frame[y:y+h, x:x+w]
 
         # Make predictions
-        id_, conf = recognizer.predict(roi_gray)
+        id_, confidence = recognizer.predict(roi_gray)
 
-        if conf >= 4 and conf <= 85:
+        if confidence >= 4:
             print(id_)
             print(labels[id_])
 
@@ -47,8 +47,8 @@ while True:
             cv2.putText(frame, name, (x,y), font, 1, color, stroke, cv2.LINE_AA)
 
 
-        img_item = "my-image.png"
-        cv2.imwrite(img_item, roi_gray)
+        #img_item = "my-image.png"
+        #cv2.imwrite(img_item, roi_gray)
 
         # BGR
         color = (255, 0, 0)
