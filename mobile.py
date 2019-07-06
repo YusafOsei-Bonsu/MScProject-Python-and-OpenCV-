@@ -6,6 +6,7 @@ from kivy.uix.button import Button
 
 
 class CameraExample(App):
+
     def build(self):
         layout = BoxLayout(orientation='vertical')
 
@@ -15,16 +16,16 @@ class CameraExample(App):
         self.cameraObject.resolution = (300, 300)
 
         # Button that captures pictures
-        self.cameraClick = Button(text="Take Photo")
-        self.cameraClick.size_hint(.5, .2)
-        self.cameraClick.pos_hint = {'x': .25, 'y':.75}
+        self.camaraClick = Button(text="Take Photo")
+        self.camaraClick.size_hint = (.5, .2)
+        self.camaraClick.pos_hint = {'x': .25, 'y': .75}
 
         # Bind the button's on_press to onCameraClick
-        self.cameraClick.bind(on_press=self.onCameraClick)
+        self.camaraClick.bind(on_press=self.onCameraClick)
 
         # Append camera and button to the layout
         layout.add_widget(self.cameraObject)
-        layout.add_widget(self.cameraClick)
+        layout.add_widget(self.camaraClick)
 
         # return the root widget
         return layout
@@ -34,5 +35,6 @@ class CameraExample(App):
         self.cameraObject.export_to_png('/kivyexamples/selfie.png')
 
 
+# Run app
 if __name__ == '__main__':
     CameraExample().run()
