@@ -1,40 +1,59 @@
-import kivy
+'''
+Camera Example
+==============
+
+This example demonstrates a simple use of the camera. It shows a window with
+a buttoned labelled 'play' to turn the camera on and off. Note that
+not finding a camera, perhaps because gstreamer is not installed, will
+throw an exception during the kv language processing.
+
+'''
+
+# Uncomment these lines to see all the messages
+# from kivy.logger import Logger
+# import logging
+# Logger.setLevel(logging.TRACE)
+
 from kivy.app import App
-from kivy.uix.camera import Camera
+from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.button import Button
+import time
+Builder.load_string('''
+<CameraClick>:
+    orientation: 'vertical'
+    Camera:
+        id: camera
+        resolution: (640, 480)
+        play: False
+    ToggleButton:
+        text: 'Play'
+        on_press: camera.play = not camera.play
+        size_hint_y: None
+        height: '48dp'
+    Button:
+        text: 'Capture'
+        size_hint_y: None
+        height: '48dp'
+        on_press: root.capture()
+''')
 
 
-class CameraExample(App):
+class CameraClick(BoxLayout):
+    def capture(self):
+        '''
+        Function to capture the images and give them the names
+        according to their captured time and date.
+        '''
+        camera = self.ids['camera']
+        timestr = time.strftime("%Y%m%d_%H%M%S")
+        camera.export_to_png("IMG_{}.png".format(timestr))
+        print("Captured")
+
+
+class TestCamera(App):
 
     def build(self):
-        layout = BoxLayout(orientation='vertical')
-
-        # Create camera object
-        self.cameraObject = Camera(play=False)
-        self.cameraObject.play = True
-        self.cameraObject.resolution = (300, 300)
-
-        # Button that captures pictures
-        self.camaraClick = Button(text="Take Photo")
-        self.camaraClick.size_hint = (.5, .2)
-        self.camaraClick.pos_hint = {'x': .25, 'y': .75}
-
-        # Bind the button's on_press to onCameraClick
-        self.camaraClick.bind(on_press=self.onCameraClick)
-
-        # Append camera and button to the layout
-        layout.add_widget(self.cameraObject)
-        layout.add_widget(self.camaraClick)
-
-        # return the root widget
-        return layout
-
-    # Take the current frame of the video as the photograph
-    def onCameraClick(self, *args):
-        self.cameraObject.export_to_png('/kivyexamples/selfie.png')
+        return CameraClick()
 
 
-# Run app
-if __name__ == '__main__':
-    CameraExample().run()
+TestCamera().run()
