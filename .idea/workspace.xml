@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9fa193f-9cbd-4714-8648-8782ab9acd07" name="Default Changelist" comment="" />
+    <list default="true" id="c9fa193f-9cbd-4714-8648-8782ab9acd07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/labels.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-518">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#443#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            <state relative-caret-position="128">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -23,50 +48,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/5.jpg">
+        <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_2.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/6.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/3.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/1.jpg">
+        <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_1.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/face-train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-310">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="187">
+              <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-image.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -87,12 +87,12 @@
         <option value="$PROJECT_DIR$/camera_test.py" />
         <option value="$PROJECT_DIR$/face-train.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/mobile.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -104,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,23 +115,24 @@
             <path>
               <item name="MScProject-Python-and-OpenCV-" type="b2602c69:ProjectViewProjectNode" />
               <item name="MScProject-Python-and-OpenCV-" type="462c0819:PsiDirectoryNode" />
-              <item name="cascades" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MScProject-Python-and-OpenCV-" type="b2602c69:ProjectViewProjectNode" />
               <item name="MScProject-Python-and-OpenCV-" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="yusaf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -152,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.face-train">
+  <component name="RunManager" selected="Python.main">
     <configuration name="camera_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MScProject-Python-and-OpenCV-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,10 +218,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mobile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MScProject-Python-and-OpenCV-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.face-train" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.face-train" />
+        <item itemvalue="Python.mobile" />
         <item itemvalue="Python.camera_test" />
       </list>
     </recent_temporary>
@@ -250,20 +274,21 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18377976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9312602" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924126" visible="true" weight="0.28641573" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924126" weight="0.32405892" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49925596" weight="0.32724252" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007587" side_tool="true" weight="0.91653025" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49772382" weight="0.3305648" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49925596" weight="0.32569557" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -298,16 +323,6 @@
     <entry file="file://$PROJECT_DIR$/images/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/camera_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/kit-harington/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -315,15 +330,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/peter-dinklage/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/5.jpg">
@@ -344,23 +350,89 @@
     <entry file="file://$PROJECT_DIR$/images/nikolaj-coster-waldau/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/kivy/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/kivy/core/window/window_sdl2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/P76O5B94/main[1].py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/kivy/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="828" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMG_20190706_211719.png" />
+    <entry file="file://$PROJECT_DIR$/IMG_20190706_211720.png" />
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python37-32/Lib/http/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1223" selection-start-line="1223" selection-end-line="1223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python37-32/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1316" selection-start-line="1316" selection-end-line="1316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMG_20190707_195802.png" />
+    <entry file="file://$PROJECT_DIR$/IMG_20190707_195809.png" />
+    <entry file="file://$PROJECT_DIR$/mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#443#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/yusaf/yusaf_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/face-train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="187">
+          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="94">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
