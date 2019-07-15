@@ -1,6 +1,4 @@
 class ModifiedLBPH:
-    #
-
     def __init__(self, radius=1, neighbors=8, grid_x=8, grid_y=8):
         '''
         :param radius: Builds the circular local binary pattern and represents the radius around the central pixel (usually set to 1).
