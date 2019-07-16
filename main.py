@@ -16,11 +16,11 @@ with open("labels.pickle", 'rb') as f:
     labels = {v: k for k, v in og_labels.items()}
 
 # Accesses the device's camera
-cap = cv2.VideoCapture(0)
+laptop_camera = cv2.VideoCapture(0)
 
 while True:
     # Capture frame-by-frame
-    ret, frame = cap.read()
+    ret, frame = laptop_camera.read()
     # Convert captured frame from RGB to greyscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
@@ -63,5 +63,5 @@ while True:
         break
 
 # When everything done, release the capture
-cap.release()
+laptop_camera.release()
 cv2.destroyAllWindows()
