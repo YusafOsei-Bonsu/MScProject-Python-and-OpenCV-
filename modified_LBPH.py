@@ -10,4 +10,10 @@ class ModifiedLBPH:
         self.neighbors = neighbors
         self.grid_x = grid_x
         self.grid_y = grid_y
+        self.images ={}
+
+
+    def addImage(self, image):
+
+        print(image.shape)
 
