@@ -15,5 +15,24 @@ class ModifiedLBPH:
 
     def addImage(self, image):
 
-        print(image.shape)
+        row = 0
+        col = 0
+
+        while row + 3 < len(image):
+            while col + 3 < len(image):
+
+                greySample = image[row:row+3, col:col+3]
+                print(greySample)
+                threshold = image[row+1, col+1]
+                # print(threshold)
+                binaryDigits = []
+
+                '''
+                for sample in greySample:
+                    for n in sample:
+                '''
+
+                col += 3
+            row += 3
+
 
