@@ -22,6 +22,7 @@ class ModifiedLBPH:
                 print("3x3 matrix:")
                 grey_sample = image[row:row+3, col:col+3]
                 print(grey_sample)
+                # Central value of the matrix
                 threshold = image[row+1, col+1]
                 # Converting the 3x3 matrix into a binary 3x3 matrix
                 binary_matrix = binary_matrix_conversion(grey_sample, threshold)
@@ -47,7 +48,7 @@ def binary_matrix_conversion(three_by_three_matrix, threshold):
         # If the position of the current neighbour is the same as the one in the threshold
         if flattened_3_x_3_matrix.index(neighbour) == flattened_3_x_3_matrix.index(threshold):
             # then make the central value into an empty space
-            binary_matrix.append("")
+            pass
         elif threshold <= neighbour:
             # Add a 1 to the binary matrix if the threshold is bigger than the current neighbour
             binary_matrix.append(1)
