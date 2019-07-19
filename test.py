@@ -5,6 +5,7 @@ from modified_LBPH import ModifiedLBPH
 import os
 from PIL import Image
 
+
 def train():
     lbph = ModifiedLBPH()
 
@@ -38,14 +39,14 @@ def train():
                 size = (16, 16)
                 final_image = pil_image.resize(size, Image.ANTIALIAS)
 
-                image_array = np.array(final_image, "uint8")
+                image_array = np.array(pil_image, "uint8")
                 faces = face_cascade.detectMultiScale(image_array, scaleFactor=1.5, minNeighbors=5)
 
                 for (x, y, w, h) in faces:
-                    roi = image_array[y:y+h, x:x+w]
-                    lbph.addImage(roi)
+                    region_of_interest = image_array[y:y+h, x:x+w]
+                    # print(region_of_interest)
+                    lbph.addImage(region_of_interest)
                     y_labels.append(id_)
-
 
     return lbph, y_labels
 
