@@ -45,7 +45,7 @@ def train():
                 for (x, y, w, h) in faces:
                     region_of_interest = image_array[y:y+h, x:x+w]
                     # print(region_of_interest)
-                    lbph.addImage(region_of_interest)
+                    lbph.add_image(region_of_interest)
                     y_labels.append(id_)
 
     return lbph, y_labels
