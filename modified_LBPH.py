@@ -21,16 +21,21 @@ class ModifiedLBPH:
     def binary_matrix_conversion(self, three_by_three_matrix, threshold):
         # Turns the 3x3 matrix into a single list
         flattened_3_x_3_matrix = [item for sublist in three_by_three_matrix for item in sublist]
+        # Removing threshold to ensure it's not included in the binary conversion process
         flattened_3_x_3_matrix.pop(4)
 
         binary_matrix = []
 
-        # Creates the binary matrix
+
+        '''
+         This loop creates the matrix of binary values (0s and 1s). 
+         It traverses through each neighbour within the original matrix.
+         If the current neighbour is greater than/equal to the threshold, then a 1 is appended to the binary matrix.
+          If the current neighbour is less than/equal to the threshold, then a 0 is appended to the binary matrix.
+        '''
         for neighbour in flattened_3_x_3_matrix:
-            # Add a 1 to the binary matrix if the neighbour is bigger than the threshold
             if neighbour >= threshold:
                 binary_matrix.append(1)
-            # Add a 0 to the binary matrix if the neighbour is smaller than the threshold
             elif neighbour < threshold:
                 binary_matrix.append(0)
 
