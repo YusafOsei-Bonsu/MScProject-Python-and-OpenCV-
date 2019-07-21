@@ -3,7 +3,7 @@ import cv2
 import pickle
 from modified_LBPH import ModifiedLBPH
 
-face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
+face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_default.xml')
 # The face recognizer
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 # Trained data
