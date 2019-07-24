@@ -15,7 +15,7 @@ class ModifiedLBPH:
         self.neighbors = neighbors
         self.grid_x = grid_x
         self.grid_y = grid_y
-        self.images ={}
+        self.images = {}
 
     # Converts the 3x3 matrix into a binary matrix
     def binary_matrix_conversion(self, three_by_three_matrix, threshold):
@@ -25,7 +25,6 @@ class ModifiedLBPH:
         flattened_3_x_3_matrix.pop(4)
 
         binary_matrix = []
-
 
         '''
          This loop creates the matrix of binary values (0s and 1s). 
@@ -54,10 +53,10 @@ class ModifiedLBPH:
 
         while row + 3 < len(image[0]):
             while column + 3 < len(image[0]):
-                grey_sample = image[row:row+3, column:column+3]
+                grey_sample = image[row:row + 3, column:column + 3]
                 # print(grey_sample)
                 # Central value of the matrix
-                threshold = image[row+1, column+1]
+                threshold = image[row + 1, column + 1]
                 # Converting the 3x3 matrix into a binary 3x3 matrix
                 b = self.binary_matrix_conversion(grey_sample, threshold)
                 print(b)
