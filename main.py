@@ -4,12 +4,14 @@ import pickle
 from kivy.app import App
 from kivy.uix.label import Label
 
-
 class FaceRecognitionApp(App):
     def build(self):
-        face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
+        # Loads the OpenCV LBP face detector
+        face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_default.xml')
+
         # The face recognizer
         recognizer = cv2.face.LBPHFaceRecognizer_create()
+
         # Trained data
         recognizer.read("trainer.yml")
 
@@ -25,24 +27,26 @@ class FaceRecognitionApp(App):
         while True:
             # Capture frame-by-frame
             ret, frame = laptop_camera.read()
-            # Convert captured frame from RGB to greyscale
+            # Convert captured frame to grayscale
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
             faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
 
-            # Prints a set of 4 values if a face is detected
             for (x, y, w, h) in faces:
                 # roi = region of interest
-                print(x, y, w, h)
+                # print(x, y, w, h)
                 # (ycord_start, ycord_end)
+                # Region of interest for gray
                 roi_gray = gray[y:y + h, x:x + w]
+                # Region of interest for colour
                 roi_color = frame[y:y + h, x:x + w]
 
                 # Make predictions
                 id_, confidence = recognizer.predict(roi_gray)
 
                 if confidence >= 4:
-                    print(id_)
-                    print(labels[id_])
+                    # print(id_)
+                    # print(labels[id_])
 
                     # Printing the name of the detected person on screen
                     font = cv2.FONT_HERSHEY_SIMPLEX
