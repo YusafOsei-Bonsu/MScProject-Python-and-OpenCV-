@@ -9,8 +9,8 @@ from PIL import Image
 def train():
     lbph = ModifiedLBPH()
 
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    image_dir = os.path.join(BASE_DIR, "images2")
+    base_directory = os.path.dirname(os.path.abspath(__file__))
+    image_dir = os.path.join(base_directory, "images2")
 
     face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
 
@@ -54,6 +54,5 @@ def train():
 def main():
 
     fr, labels = train()
-
 
 main()
