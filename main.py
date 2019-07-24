@@ -1,17 +1,13 @@
 import numpy as np
 import cv2
 import pickle
-from modified_LBPH import ModifiedLBPH
-import kivy
 from kivy.app import App
 from kivy.uix.label import Label
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.textinput import TextInput
 
 
 class FaceRecognitionApp(App):
     def build(self):
-        face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_default.xml')
+        face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
         # The face recognizer
         recognizer = cv2.face.LBPHFaceRecognizer_create()
         # Trained data
@@ -19,11 +15,11 @@ class FaceRecognitionApp(App):
 
         # Save labels so they can be used by main.py
         labels = {"person_name": 1}
-        with open("labels.pickle", 'rb') as f:
-            og_labels = pickle.load(f)
-            labels = {v: k for k, v in og_labels.items()}
+        with open("labels.pickle", 'rb') as file:
+            og_labels = pickle.load(file)
+            labels = {value: key for key, value in og_labels.items()}
 
-        # Accesses the device's camera
+        # Accessing the device's camera
         laptop_camera = cv2.VideoCapture(0)
 
         while True:
@@ -38,8 +34,8 @@ class FaceRecognitionApp(App):
                 # roi = region of interest
                 print(x, y, w, h)
                 # (ycord_start, ycord_end)
-                roi_gray = gray[y:y+h, x:x+w]
-                roi_color = frame[y:y+h, x:x+w]
+                roi_gray = gray[y:y + h, x:x + w]
+                roi_color = frame[y:y + h, x:x + w]
 
                 # Make predictions
                 id_, confidence = recognizer.predict(roi_gray)
@@ -53,7 +49,7 @@ class FaceRecognitionApp(App):
                     name = labels[id_]
                     color = (255, 255, 255)
                     stroke = 2
-                    cv2.putText(frame, name, (x,y), font, 1, color, stroke, cv2.LINE_AA)
+                    cv2.putText(frame, name, (x, y), font, 1, color, stroke, cv2.LINE_AA)
                 # img_item = "my-image.png"
                 # cv2.imwrite(img_item, roi_gray)
 
