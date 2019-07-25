@@ -61,7 +61,7 @@ for imagePath in paths.list_images(["training"]):
                 path = os.path.join(root, file)
                 label = os.path.basename(os.path.dirname(path)).replace(" ", "-").lower()
 
-                if not label in label_ids:
+                if  label not in label_ids:
                     label_ids[label] = current_id
                     current_id += 1
                 id_ = label_ids[label]
