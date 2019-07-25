@@ -1,12 +1,44 @@
 import numpy as np
-import cv2
-import pickle
 from modified_LBPH import ModifiedLBPH
-import os
+from sklearn.svm import LinearSVC
+from imutils import paths
+import argparse
+import pickle
 from PIL import Image
+import cv2
+import os
 
+# Construct argument parse and parse the arguments
+ap = argparse.ArgumentParser()
 
-def train():
+# Divided the images into two sets:
+# A training set of 6 images per person
+# A testing set of one image per person
+ap.add_argument("-t", "--training", required=True, help="path to the training images")
+ap.add_argument("-e", "--testing", required=True, help="path to the testing images")
+args = vars(ap.parse_args())
+
+# Initializing the LBPs descriptor along with the data and label lists
+desc = ModifiedLBPH()
+
+# Stores the feature vectors
+data = []
+
+# Stores the names of each person
+labels = []
+
+# Traverse through the training set
+for imagePath in paths.list_images(["training"]):
+    # Load image, convert it to grayscale and describe it
+    image = cv2.imread(imagePath)
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    histogram = desc.describe(gray)
+
+    # Extract label from image path, update the label and data lists
+    labels.append(imagePath.split(os.path.sep)[-2])
+    data.append(histogram)
+
+'''def train():
     lbph = ModifiedLBPH()
 
     base_directory = os.path.dirname(os.path.abspath(__file__))
@@ -48,11 +80,11 @@ def train():
                     lbph.add_image(region_of_interest)
                     y_labels.append(id_)
 
-    return lbph, y_labels
+    return lbph, y_labels'''
 
 
-def main():
+'''def main():
 
     fr, labels = train()
 
-main()
+main()'''
