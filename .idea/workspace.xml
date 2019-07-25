@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fa193f-9cbd-4714-8648-8782ab9acd07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modified_LBPH.py" beforeDir="false" afterPath="$PROJECT_DIR$/modified_LBPH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +32,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images2/training" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\training" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\testing" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -58,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="face-train" type="PythonConfigurationType" factoryName="Python">
       <module name="MScProject-Python-and-OpenCV-" />
       <option name="INTERPRETER_OPTIONS" value="" />
