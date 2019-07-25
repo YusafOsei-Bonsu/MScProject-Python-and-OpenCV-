@@ -1774,13 +1774,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\training" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\testing" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1795,7 +1795,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="face-train" type="PythonConfigurationType" factoryName="Python">
       <module name="MScProject-Python-and-OpenCV-" />
       <option name="INTERPRETER_OPTIONS" value="" />
