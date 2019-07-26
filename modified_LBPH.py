@@ -4,6 +4,17 @@ import numpy as np
 from skimage import feature
 
 class ModifiedLBPH:
+    current_id = 0
+
+    # Stores the feature vectors
+    data = []
+
+    # Stores the name of each person
+    labels = {}
+
+    # List of IDs
+    y_labels = []
+    x_train = []
 
     def __init__(self, radius=1, neighbors=8):
         '''
@@ -17,11 +28,26 @@ class ModifiedLBPH:
         # Computes the LBP representation of the image
         # Afterwards, use the LBP representation to generate the histogram of patterns
         lbp = feature.local_binary_pattern(image, self.neighbors, self.radius, method="uniform")
-        (hist, _) = np.histogram(lbp.ravel(), bins=np.arange(0, self.neighbors + 3), range=(0, self.neighbors + 2))
+        (histogram, _) = np.histogram(lbp.ravel(), bins=np.arange(0, self.neighbors + 3), range=(0, self.neighbors + 2))
 
         # Normalize histogram
-        hist = hist.astype("float")
-        hist /= (hist.sum() + eps)
+        histogram = histogram.astype("float")
+        histogram /= (histogram.sum() + eps)
 
-        # Return the histogram of the Local Binary Patterns
-        return hist
+        # Add the histogram (of the image) to the list
+        self.data.append(histogram)
+
+    def add_label(self, label):
+
+        if label not in self.labels:
+            self.labels[label] = self.current_id
+            self.current_id += 1
+
+    def add_to_x_train(self, roi):
+        self.x_train.append(roi)
+
+    def add_to_y_labels(self, _id):
+        self.y_labels.append(_id)
+
+    def get_id(self, label):
+        return self.labels[label]
