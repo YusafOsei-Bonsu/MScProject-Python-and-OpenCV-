@@ -62,7 +62,7 @@ def train():
                 label = os.path.basename(os.path.dirname(path)).replace(" ", "-").lower()
                 image = cv2.imread(path)
                 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-                lbph.describe(gray)
+                lbph.LBP_process(gray)
 
                 # Contains the name of each person into the label storage
                 lbph.add_label(label)
@@ -89,11 +89,11 @@ def train():
                     lbph.add_to_y_labels(id_)
                     # y_labels.append(id_)
 
-    # return lbph, y_labels
+    return lbph, lbph.get_y_labels
 
 
 def main():
-    train()
-    # fr, labels = train()
+    # train()
+    fr, labels = train()
 
 main()
