@@ -75,6 +75,5 @@ class FaceRecognitionApp(App):
         cv2.destroyAllWindows()
         return Label(text="Face Detection Application")
 
-
 if __name__ == "__main__":
     FaceRecognitionApp().run()
