@@ -24,7 +24,7 @@ class ModifiedLBPH:
         self.radius = radius
         self.neighbors = neighbors
 
-    def describe(self, image, eps=1e-7):
+    def LBP_process(self, image, eps=1e-7):
         # Computes the LBP representation of the image
         # Afterwards, use the LBP representation to generate the histogram of patterns
         lbp = feature.local_binary_pattern(image, self.neighbors, self.radius, method="uniform")
@@ -48,6 +48,9 @@ class ModifiedLBPH:
 
     def add_to_y_labels(self, _id):
         self.y_labels.append(_id)
+
+    def get_y_labels(self):
+        return self.y_labels
 
     def get_id(self, label):
         return self.labels[label]
