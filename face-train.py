@@ -34,17 +34,10 @@ for root, dirs, files in os.walk(image_dir):
             # print(label, path)
 
             # Assigning ids to labels
-            if not label in label_ids:
+            if label not in label_ids:
                 label_ids[label] = current_id
                 current_id += 1
             id_ = label_ids[label]
-            # print(label_ids)
-
-            # Some number for labels
-            # y_labels.append(label)
-
-            # Verify image and convert it into a NUMPY array (greyscale image)
-            # x_train.append(path)
 
             # Retrieves an image from the path and converts it to grayscale
             pil_image = Image.open(path).convert("L")
@@ -55,14 +48,13 @@ for root, dirs, files in os.walk(image_dir):
 
             # Contains the numbers within the image
             image_array = np.array(pil_image, "uint8")
-            # print(image_array)
             faces = face_cascade.detectMultiScale(image_array, scaleFactor=1.5, minNeighbors=5)
 
             for (x, y, w, h) in faces:
                 # Region of interest
-                roi = image_array[y:y+h, x:x+w]
+                region_of_interest = image_array[y:y + h, x:x + w]
                 # Training data
-                x_train.append(roi)
+                x_train.append(region_of_interest)
                 y_labels.append(id_)
 
 '''print(image_array)
