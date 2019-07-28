@@ -146,10 +146,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.face-train" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.modified_LBPH" />
+      <item itemvalue="Python.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
