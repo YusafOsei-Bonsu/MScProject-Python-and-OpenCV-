@@ -4,36 +4,6 @@ import cv2
 import os
 from modified_LBPH import ModifiedLBPH
 
-'''# Construct argument parse and parse the arguments
-ap = argparse.ArgumentParser()
-
-# Divided the images into two sets:
-# A training set of 6 images per person
-# A testing set of one image per person
-ap.add_argument("-t", "--training", required=True, help="path to the training images")
-ap.add_argument("-e", "--testing", required=True, help="path to the testing images")
-args = vars(ap.parse_args())
-
-# Initializing the LBPs descriptor along with the data and label lists
-desc = ModifiedLBPH()
-
-# Stores the feature vectors
-data = []
-
-# Stores the names of each person
-labels = []
-
-# Traverse through the training set
-for imagePath in paths.list_images(["training"]):
-    # Load image, convert it to grayscale and describe it
-    image = cv2.imread(imagePath)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    histogram = desc.describe(gray)
-
-    # Extract label from image path, update the label and data lists
-    labels.append(imagePath.split(os.path.sep)[-2])
-    data.append(histogram)'''
-
 def train():
     lbph = ModifiedLBPH()
 
@@ -41,13 +11,6 @@ def train():
     images2 = os.path.join(base_directory, "images2")
 
     face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
-
-    recognizer = cv2.face.LBPHFaceRecognizer_create()
-
-    current_id = 0
-    label_ids = {}
-    y_labels = []
-    x_train = []
 
     image_array = None
 
@@ -62,19 +25,19 @@ def train():
                 label = os.path.basename(os.path.dirname(path)).replace(" ", "-").lower()
                 image = cv2.imread(path)
                 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-                lbph.LBP_process(gray)
+                # lbph.LBP_process(gray)
 
                 # Contains the name of each person into the label storage
-                lbph.add_label(label)
+                # lbph.add_label(label)
 
-                id_ = lbph.get_id(label)
+                # id_ = lbph.get_id(label)
 
                 # Retrieve and convert an image from the path and converts it to grayscale
                 pil_image = Image.open(path).convert("L")
 
                 # Image size
-                size = (16, 16)
-                final_image = pil_image.resize(size, Image.ANTIALIAS)
+                # size = (16, 16)
+                # final_image = pil_image.resize(size, Image.ANTIALIAS)
 
                 # Contains the numbers within the image
                 image_array = np.array(pil_image, "uint8")
@@ -84,16 +47,12 @@ def train():
                     # Region of interest
                     region_of_interest = image_array[y:y+h, x:x+w]
                     # Training data
-                    lbph.add_to_x_train(region_of_interest)
-                    # x_train.append(region_of_interest)
-                    lbph.add_to_y_labels(id_)
-                    # y_labels.append(id_)
+                    lbph.add_to_x_train(region_of_interest, label)
 
-    return lbph, lbph.get_y_labels
-
+    return lbph
 
 def main():
     # train()
-    fr, labels = train()
+    fr = train()
 
 main()
