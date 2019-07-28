@@ -12,16 +12,32 @@ class ModifiedLBPH:
         '''
         self.radius = radius
         self.neighbors = neighbors
+        self.labels = {}
 
-    def describe(self, image, eps=1e-7):
+    def lbp_process(self, image, eps=1e-7):
         # Computes the LBP representation of the image
         # Afterwards, use the LBP representation to generate the histogram of patterns
         lbp = feature.local_binary_pattern(image, self.neighbors, self.radius, method="uniform")
-        (hist, _) = np.histogram(lbp.ravel(), bins=np.arange(0, self.neighbors + 3), range=(0, self.neighbors + 2))
+        (histogram, _) = np.histogram(lbp.ravel(), bins=np.arange(0, self.neighbors + 3), range=(0, self.neighbors + 2))
 
         # Normalize histogram
-        hist = hist.astype("float")
-        hist /= (hist.sum() + eps)
+        histogram = histogram.astype("float")
+        histogram /= (histogram.sum() + eps)
 
-        # Return the histogram of the Local Binary Patterns
-        return hist
+        # Add the histogram (of the image) to the list
+        return histogram
+
+    def add_label(self, label):
+
+        if label not in self.labels:
+            self.labels[label] = []
+
+    def add_to_x_train(self, roi, label):
+        self.add_label(label)
+        histogram = self.lbp_process(roi)
+        histograms = self.labels[label]
+        print(self.labels['yusaf'])
+        histograms.append(histogram)
+
+
+
