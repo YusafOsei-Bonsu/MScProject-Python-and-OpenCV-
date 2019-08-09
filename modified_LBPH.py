@@ -11,10 +11,9 @@ class ModifiedLBPH:
         :param radius: Builds the circular local binary pattern and represents the radius around the central pixel (usually set to 1).
         :param neighbors: Number of sample points to build the circular local binary pattern (usually set to 8).
         '''
-        self.histograms = None
         self.radius = radius
         self.neighbors = neighbors
-        self.labels = {}
+        self.labels = {} # Histograms
 
     def lbp_process(self, image, eps=1e-7):
         # Computes the LBP representation of the image
@@ -38,29 +37,34 @@ class ModifiedLBPH:
         self.add_label(label)
         histogram = self.lbp_process(roi)
         histograms = self.labels[label]
-        # print(self.labels['yusaf'])
         histograms.append(histogram)
+        # print(self.labels['yusaf'])
 
     # The histogram closest to the target img is the match.
     def histogram_matching(self, image):
-        # Computing histogram from given image
-        histogram = self.lbp_process(image)
-        l = 0
+        # Computing the histogram of the image
+        img_histogram = self.lbp_process(image)
         m = 999
 
-        for j in len(self.labels):
-            for k in len(j):
-                d = self.distance(histogram, self.labels[j][k])
-                if d < m:
-                    l = j
-                    m = d
+        for label, histograms in self.labels.items():
+            for histogram in histograms:
+                # Calculating the distance between the target image's histogram
+                # and the histogram of 'label'
+                dist = self.distance(img_histogram, histogram)
+                if dist < m:
+                    l = label
+                    m = dist
+
         return l
 
     # Calculating the distance between two histograms
     def distance(self, histogram_1, histogram_2):
+        ith = 0
         sum = 0
 
-        for i in range(1, 1000):
-            sum += ((histogram_1[i] - histogram_2[i]) ** 2)
+        while ith < len(histogram_1) and ith < len(histogram_2):
+            sum += (histogram_1[ith] - histogram_2[ith])**2
+            ith += 1
 
+        # distance between histogram 1 and 2
         return math.sqrt(sum)
