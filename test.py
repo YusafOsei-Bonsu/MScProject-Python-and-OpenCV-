@@ -44,10 +44,15 @@ def train():
                 faces = face_cascade.detectMultiScale(image_array, scaleFactor=1.5, minNeighbors=5)
 
                 for (x, y, w, h) in faces:
-                    # Region of interest
+                    # image
                     region_of_interest = image_array[y:y+h, x:x+w]
                     # Training data
                     lbph.add_to_x_train(region_of_interest, label)
+                    result = lbph.histogram_matching(region_of_interest)
+
+                # Prints the label that possesses a histogram that's closest to the
+                # histogram of the target img
+                print(result)
 
     return lbph
 
