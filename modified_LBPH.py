@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 # 'feature' contains the implementation of the LBP descriptor
 from skimage import feature
@@ -12,7 +13,7 @@ class ModifiedLBPH:
         '''
         self.radius = radius
         self.neighbors = neighbors
-        self.labels = {}
+        self.labels = {} # Histograms
 
     def lbp_process(self, image, eps=1e-7):
         # Computes the LBP representation of the image
@@ -36,8 +37,34 @@ class ModifiedLBPH:
         self.add_label(label)
         histogram = self.lbp_process(roi)
         histograms = self.labels[label]
-        print(self.labels['yusaf'])
         histograms.append(histogram)
+        # print(self.labels['yusaf'])
 
+    # The histogram closest to the target img is the match.
+    def histogram_matching(self, image):
+        # Computing the histogram of the image
+        img_histogram = self.lbp_process(image)
+        m = 999
 
+        for label, histograms in self.labels.items():
+            for histogram in histograms:
+                # Calculating the distance between the target image's histogram
+                # and the histogram of 'label'
+                dist = self.distance(img_histogram, histogram)
+                if dist < m:
+                    l = label
+                    m = dist
 
+        return l
+
+    # Calculating the distance between two histograms
+    def distance(self, histogram_1, histogram_2):
+        ith = 0
+        sum = 0
+
+        while ith < len(histogram_1) and ith < len(histogram_2):
+            sum += (histogram_1[ith] - histogram_2[ith])**2
+            ith += 1
+
+        # distance between histogram 1 and 2
+        return math.sqrt(sum)
