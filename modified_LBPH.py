@@ -15,7 +15,8 @@ class ModifiedLBPH:
         self.neighbors = neighbors
         self.labels = {} # Histograms
 
-    def lbp_process(self, image, eps=1e-7):
+    # This performs the entire LBPH process
+    def lbph_process(self, image, eps=1e-7):
         # Computes the LBP representation of the image
         # Afterwards, use the LBP representation to generate the histogram of patterns
         lbp = feature.local_binary_pattern(image, self.neighbors, self.radius, method="uniform")
@@ -28,14 +29,16 @@ class ModifiedLBPH:
         # Add the histogram (of the image) to the list
         return histogram
 
+    # Unrecorded labels are added into the list
+    # after coming across it
     def add_label(self, label):
 
         if label not in self.labels:
             self.labels[label] = []
 
-    def add_to_x_train(self, roi, label):
+    def add_to_x_train(self, region_of_interest, label):
         self.add_label(label)
-        histogram = self.lbp_process(roi)
+        histogram = self.lbph_process(region_of_interest)
         histograms = self.labels[label]
         histograms.append(histogram)
         # print(self.labels['yusaf'])
@@ -43,7 +46,7 @@ class ModifiedLBPH:
     # The histogram closest to the target img is the match.
     def histogram_matching(self, image):
         # Computing the histogram of the image
-        img_histogram = self.lbp_process(image)
+        img_histogram = self.lbph_process(image)
         m = 999
 
         for label, histograms in self.labels.items():
