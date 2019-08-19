@@ -52,10 +52,10 @@ class ModifiedLBPH:
                 # and the histogram of 'label'
                 dist = self.distance(img_histogram, histogram)
                 if dist < m:
-                    l = label
+                    img_label = label
                     m = dist
 
-        return l
+        return img_label
 
     # Calculating the distance between two histograms
     def distance(self, histogram_1, histogram_2):
