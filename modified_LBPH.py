@@ -19,8 +19,8 @@ class ModifiedLBPH:
     def lbph_process(self, image, eps=1e-7):
         # Computes the LBP representation of the image
         # Afterwards, use the LBP representation to generate the histogram of patterns
-        lbp = feature.local_binary_pattern(image, self.neighbors, self.radius, method="uniform")
-        (histogram, _) = np.histogram(lbp.ravel(), bins=np.arange(0, self.neighbors + 3), range=(0, self.neighbors + 2))
+        local_binary_pattern = feature.local_binary_pattern(image, self.neighbors, self.radius, method="uniform")
+        (histogram, _) = np.histogram(local_binary_pattern.ravel(), bins=np.arange(0, self.neighbors + 3), range=(0, self.neighbors + 2))
 
         # Normalize histogram
         histogram = histogram.astype("float")
@@ -41,7 +41,6 @@ class ModifiedLBPH:
         histogram = self.lbph_process(region_of_interest)
         histograms = self.labels[label]
         histograms.append(histogram)
-        # print(self.labels['yusaf'])
 
     # The histogram closest to the target img is the match.
     def histogram_matching(self, image):
