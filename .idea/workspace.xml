@@ -3,106 +3,148 @@
   <component name="ChangeListManager">
     <list default="true" id="c9fa193f-9cbd-4714-8648-8782ab9acd07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modified_LBPH.py" beforeDir="false" afterPath="$PROJECT_DIR$/modified_LBPH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-&amp;-eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-&amp;-eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/100/100001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100/100001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/100/100002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100/100002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/100/100003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100/100003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/100/100004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100/100004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/101/101001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101/101001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/101/101002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101/101002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/101/101003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101/101003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/101/101004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101/101004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/102/102001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102/102001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/102/102002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102/102002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/102/102003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102/102003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/102/102004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102/102004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/103/103001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103/103001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/103/103002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103/103002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/103/103003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103/103003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/103/103004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103/103004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/104/104001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104/104001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/104/104002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104/104002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/104/104003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104/104003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/104/104004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104/104004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/105/105001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/105/105001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/105/105002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/105/105002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/105/105003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/105/105003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/106/106001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106/106001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/106/106002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106/106002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/106/106003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106/106003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/106/106004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106/106004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/107/107001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107/107001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/107/107002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107/107002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/107/107003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107/107003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/107/107004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107/107004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/108/108001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/108/108001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/108/108002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/108/108002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/108/108003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/108/108003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/109/109001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109/109001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/109/109002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109/109002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/109/109003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109/109003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/109/109004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109/109004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/110/110001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110/110001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/110/110002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110/110002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/110/110003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110/110003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/110/110004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110/110004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/111/111001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111/111001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/111/111002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111/111002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/111/111003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111/111003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/111/111004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111/111004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/112/112001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112/112001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/112/112002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112/112002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/112/112003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112/112003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/112/112004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112/112004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/113/113001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113/113001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/113/113002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113/113002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/113/113003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113/113003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/113/113004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113/113004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/114/114001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/114/114001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/114/114002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/114/114002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/114/114003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/114/114003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/115/115001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115/115001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/115/115002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115/115002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/115/115003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115/115003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/115/115004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115/115004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/116/116001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116/116001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/116/116002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116/116002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/116/116003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116/116003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/116/116004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116/116004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/117/117001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/117/117001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/117/117002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/117/117002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/118/118001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/118/118001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/118/118002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/118/118002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/118/118003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/118/118003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/119/119001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119/119001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/119/119002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119/119002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/119/119003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119/119003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/119/119004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119/119004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/120/120001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/120/120001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/120/120002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/120/120002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/121/121001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121/121001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/121/121002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121/121002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/121/121003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121/121003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/121/121004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121/121004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/122/122001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122/122001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/122/122002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122/122002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/122/122003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122/122003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/122/122004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122/122004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/123/123001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123/123001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/123/123002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123/123002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/123/123003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123/123003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/123/123004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123/123004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/124/124001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124/124001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/124/124002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124/124002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/124/124003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124/124003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/124/124004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124/124004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/125/125001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125/125001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/125/125002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125/125002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/125/125003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125/125003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/125/125004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125/125004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-images/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/understand.py" beforeDir="false" afterPath="$PROJECT_DIR$/understand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/100/100001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/100/100002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/100/100003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/100/100004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/100004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/101/101001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/101/101002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/101/101003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/101/101004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/101004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/102/102001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/102/102002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/102/102003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/102/102004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/102004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/103/103001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/103/103002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/103/103003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/103/103004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/103004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/104/104001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/104/104002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/104/104003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/104/104004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/104004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/105/105001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/105001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/105/105002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/105002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/105/105003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/105003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/106/106001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/106/106002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/106/106003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/106/106004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/106004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/107/107001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/107/107002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/107/107003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/107/107004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/107004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/108/108001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/108001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/108/108002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/108002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/108/108003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/108003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/109/109001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/109/109002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/109/109003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/109/109004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/109004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/110/110001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/110/110002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/110/110003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/110/110004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/110004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/111/111001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/111/111002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/111/111003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/111/111004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/111004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/112/112001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/112/112002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/112/112003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/112/112004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/112004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/113/113001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/113/113002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/113/113003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/113/113004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/113004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/114/114001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/114001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/114/114002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/114002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/114/114003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/114003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/115/115001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/115/115002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/115/115003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/115/115004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/115004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/116/116001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/116/116002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/116/116003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/116/116004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/116004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/117/117001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/117001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/117/117002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/117002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/118/118001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/118001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/118/118002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/118002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/118/118003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/118003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/119/119001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/119/119002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/119/119003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/119/119004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/119004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/120/120001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/120001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/120/120002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/120002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/121/121001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/121/121002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/121/121003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/121/121004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/121004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/122/122001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/122/122002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/122/122003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/122/122004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/122004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/123/123001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/123/123002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/123/123003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/123/123004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/123004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/124/124001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/124/124002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/124/124003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/124/124004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/124004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/125/125001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/125/125002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/125/125003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFW-images/125/125004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LFW-images/125004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face-train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emilia-clarke/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kit-harington/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nikolaj-coster-waldau/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/peter-dinklage/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yusaf/yusaf_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yusaf/yusaf_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yusaf/yusaf_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yusaf/yusaf_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/yusaf/yusaf_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/yusaf/yusaf_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/yusaf/yusaf_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/yusaf/yusaf_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labels.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modified_LBPH.py" beforeDir="false" afterPath="$PROJECT_DIR$/LBPH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-&amp;-eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/understand.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,20 +174,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testing-images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\testing-images" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\training" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\testing" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\LFW-images2" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\testing-images\f 105 (Fernando Gonzalez)" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\testing-images" />
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-" />
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\training" />
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\testing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,8 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test-&amp;-eval">
-    <configuration name="face-train" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="LBPH" type="PythonConfigurationType" factoryName="Python">
       <module name="MScProject-Python-and-OpenCV-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +216,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face-train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LBPH.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,97 +246,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modified_LBPH" type="PythonConfigurationType" factoryName="Python">
-      <module name="MScProject-Python-and-OpenCV-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modified_LBPH.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test-&amp;-eval" type="PythonConfigurationType" factoryName="Python">
-      <module name="MScProject-Python-and-OpenCV-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-&amp;-eval.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
-      <module name="MScProject-Python-and-OpenCV-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="understand" type="PythonConfigurationType" factoryName="Python">
-      <module name="MScProject-Python-and-OpenCV-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/understand.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test-&amp;-eval" />
-      <item itemvalue="Python.understand" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.face-train" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.modified_LBPH" />
+      <item itemvalue="Python.LBPH" />
     </list>
   </component>
   <component name="SvnConfiguration">
