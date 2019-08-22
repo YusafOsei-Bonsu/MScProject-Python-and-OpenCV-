@@ -34,7 +34,7 @@ for root, directories, files in os.walk(LFW_images):
                 # Training data
                 testing_lbph.add_to_x_train(region_of_interest, label)
 
-# Evaluation & Testing Phase
+# Testing & Evaluation Phase
 # ==========================
 correct = 0
 count = 0
