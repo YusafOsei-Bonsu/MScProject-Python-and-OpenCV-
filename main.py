@@ -57,7 +57,9 @@ for root, directories, files in os.walk(LFW_images):
                 region_of_interest = img_array[y:y + h, x:x + w]
                 label = testing_lbph.histogram_matching(region_of_interest)
                 if label == file[:3]:
+                    # Displays the match
                     print(file, label)
+                    # Calculating the amount of times a match has been found
                     correct += 1
 
 acc = correct / float(count) * 100.0
