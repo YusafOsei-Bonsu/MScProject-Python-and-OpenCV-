@@ -1,79 +1,69 @@
-import numpy as np
+from LBPH import LBPH
+import os
 import cv2
-import pickle
-from kivy.app import App
-from kivy.uix.label import Label
+from PIL import Image
+import numpy as np
 
-class FaceRecognitionApp(App):
-    def build(self):
-        # Loads the OpenCV LBP face detector
-        face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_default.xml')
+testing_lbph = LBPH()
 
-        # The face recognizer
-        recognizer = cv2.face.LBPHFaceRecognizer_create()
+# Points to the entire project directory
+base_directory = os.path.dirname(os.path.abspath(__file__))
+# The directory containing all test images (that originate from LFW DB)
+LFW_images = os.path.join(base_directory, "LFW-images")
 
-        # Trained data
-        recognizer.read("trainer.yml")
+face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_default.xml')
 
-        # Save labels so they can be used by main.py
-        labels = {"person_name": 1}
-        with open("labels.pickle", 'rb') as file:
-            og_labels = pickle.load(file)
-            labels = {value: key for key, value in og_labels.items()}
+img_array = None
+resulting_label = None
 
-        # Accessing the device's camera
-        laptop_camera = cv2.VideoCapture(0)
+# Training Phase
+# ==============
+for root, directories, files in os.walk(LFW_images):
+    for file in files:
+        if (file.endswith("png") or file.endswith("jpg")) and "001" in file:
+            path = os.path.join(root, file)
+            # label = os.path.basename(os.path.dirname(path))
+            label = file[:3]
+            #print(label)
+            img = cv2.imread(path)
 
-        while True:
-            # Capture frame-by-frame
-            ret, frame = laptop_camera.read()
-            # Convert captured frame to grayscale
-            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-
-            faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
-
+            # Converting the image into greyscale
+            pil_image = Image.open(path).convert("L")
+            #
+            img_array = np.array(pil_image, "uint8")
+            faces = face_cascade.detectMultiScale(img_array, scaleFactor=1.5, minNeighbors=5)
+            #
             for (x, y, w, h) in faces:
-                # roi = region of interest
-                # print(x, y, w, h)
-                # (ycord_start, ycord_end)
-                # Region of interest for gray
-                roi_gray = gray[y:y + h, x:x + w]
-                # Region of interest for colour
-                roi_color = frame[y:y + h, x:x + w]
+                region_of_interest = img_array[y:y + h, x:x + w]
+                # Training data
+                testing_lbph.add_to_x_train(region_of_interest, label)
 
-                # Make predictions
-                id_, confidence = recognizer.predict(roi_gray)
+# Evaluation & Testing Phase
+# ==========================
+correct = 0
+count = 0
+for root, directories, files in os.walk(LFW_images):
+    for file in files:
+        if (file.endswith("png") or file.endswith("jpg")) and "002" in file:
 
-                if confidence >= 4:
-                    # print(id_)
-                    # print(labels[id_])
+            path = os.path.join(root, file)
+            # # print(path)
+            # label = os.path.basename(os.path.dirname(path))
+            img = cv2.imread(path)
 
-                    # Printing the name of the detected person on screen
-                    font = cv2.FONT_HERSHEY_SIMPLEX
-                    name = labels[id_]
-                    color = (255, 255, 255)
-                    stroke = 2
-                    cv2.putText(frame, name, (x, y), font, 1, color, stroke, cv2.LINE_AA)
-                # img_item = "my-image.png"
-                # cv2.imwrite(img_item, roi_gray)
+            # Converting the image into greyscale
+            pil_image = Image.open(path).convert("L")
+            #
+            img_array = np.array(pil_image, "uint8")
+            faces = face_cascade.detectMultiScale(img_array, scaleFactor=1.5, minNeighbors=5)
 
-                # BGR
-                color = (255, 0, 0)
-                stroke = 2
-                end_cord_x = x + w
-                end_cord_y = y + h
-                # Draws the rectangle around the face
-                cv2.rectangle(frame, (x, y), (end_cord_x, end_cord_y), color, stroke)
+            count += 1
+            for (x, y, w, h) in faces:
+                region_of_interest = img_array[y:y + h, x:x + w]
+                label = testing_lbph.histogram_matching(region_of_interest)
+                print(file, label)
+                if label == file[:3]:
+                    correct += 1
 
-            # Show the frame
-            cv2.imshow('frame', frame)
-            if cv2.waitKey(20) & 0xFF == ord('q'):
-                break
-
-        # When everything done, release the capture
-        laptop_camera.release()
-        cv2.destroyAllWindows()
-        return Label(text="Face Detection Application")
-
-if __name__ == "__main__":
-    FaceRecognitionApp().run()
+acc = correct / float(count) * 100.0
+print(acc)
