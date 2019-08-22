@@ -2,6 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fa193f-9cbd-4714-8648-8782ab9acd07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LFW-images/126001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/126002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/126003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/126004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/127001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/127002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/127003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/127004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/128001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/128002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/128003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/128004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/129001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/129002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/129003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/129004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/130001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/130002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/130003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/130004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/131001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/131002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/131003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFW-images/131004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,17 +61,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\LFW-images" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\LFW-images2" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\testing-images\f 105 (Fernando Gonzalez)" />
+      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\testing-images" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\training" />
       <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2\testing" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\LFW-images2" />
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images2" />
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\testing-images\f 105 (Fernando Gonzalez)" />
-      <recent name="C:\Users\Yusaf\MScProject-Python-and-OpenCV-\images" />
     </key>
   </component>
   <component name="RunDashboard">
