@@ -4,7 +4,7 @@ import math
 # 'feature' contains the implementation of the LBP descriptor
 from skimage import feature
 
-class ModifiedLBPH:
+class LBPH:
 
     def __init__(self, radius=1, neighbors=8):
         '''
@@ -46,13 +46,13 @@ class ModifiedLBPH:
     def histogram_matching(self, image):
         # Computing the histogram of the image
         img_histogram = self.lbph_process(image)
-        m = 999
+        m = 9999
 
         for label, histograms in self.labels.items():
             for histogram in histograms:
                 # Calculating the distance between the target image's histogram
                 # and the histogram of 'label'
-                dist = self.distance(img_histogram, histogram)
+                dist = self.chi_square_distance(img_histogram, histogram)
                 if dist < m:
                     img_label = label
                     m = dist
@@ -60,12 +60,36 @@ class ModifiedLBPH:
         return img_label
 
     # Calculating the distance between two histograms
-    def distance(self, histogram_1, histogram_2):
+    def euclidean_distance(self, histogram_1, histogram_2):
         ith = 0
         sum = 0
 
         while ith < len(histogram_1) and ith < len(histogram_2):
             sum += (histogram_1[ith] - histogram_2[ith])**2
+            ith += 1
+
+        # distance between histogram 1 and 2
+        return math.sqrt(sum)
+
+    # Chi Square Algorithm
+    def chi_square_distance(self, histogram_1, histogram_2):
+        ith = 0
+        sum = 0
+
+        while ith < len(histogram_1) and ith < len(histogram_2):
+            sum += ((histogram_1[ith] - histogram_2[ith])**2) / histogram_1[ith]
+            ith += 1
+
+        # distance between histogram 1 and 2
+        return sum
+
+    # Normalized euclidean Algorithm
+    def normalized_eucl_distance(self, histogram_1, histogram_2):
+        ith = 0
+        sum = 0
+
+        while ith < len(histogram_1) and ith < len(histogram_2):
+            sum += ((histogram_1[ith] - histogram_2[ith])**2) / len(histogram_1)
             ith += 1
 
         # distance between histogram 1 and 2
