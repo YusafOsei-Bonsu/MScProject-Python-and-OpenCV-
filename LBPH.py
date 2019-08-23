@@ -46,7 +46,7 @@ class LBPH:
     def histogram_matching(self, image):
         # Computing the histogram of the image
         img_histogram = self.lbph_process(image)
-        m = 9999
+        m = 999
 
         for label, histograms in self.labels.items():
             for histogram in histograms:
@@ -59,7 +59,7 @@ class LBPH:
 
         return img_label
 
-    # Calculating the distance between two histograms
+    # Euclidean Distance algorithm
     def euclidean_distance(self, histogram_1, histogram_2):
         ith = 0
         sum = 0
@@ -71,7 +71,7 @@ class LBPH:
         # distance between histogram 1 and 2
         return math.sqrt(sum)
 
-    # Chi Square Algorithm
+    # Chi Square algorithm
     def chi_square_distance(self, histogram_1, histogram_2):
         ith = 0
         sum = 0
