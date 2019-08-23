@@ -4,17 +4,18 @@ import cv2
 from PIL import Image
 import numpy as np
 
+# Initialising LBPH object
 testing_lbph = LBPH()
 
 # Points to the entire project directory
 base_directory = os.path.dirname(os.path.abspath(__file__))
+
 # The directory containing all test images (that originate from LFW DB)
 LFW_images = os.path.join(base_directory, "LFW-images")
 
 face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
 
 img_array = None
-resulting_label = None
 
 # Training Phase
 # ==============
@@ -43,8 +44,6 @@ for root, directories, files in os.walk(LFW_images):
         if (file.endswith("png") or file.endswith("jpg")) and "002" in file:
 
             path = os.path.join(root, file)
-            # # print(path)
-            # label = os.path.basename(os.path.dirname(path))
             img = cv2.imread(path)
 
             # Converting the image into greyscale
@@ -62,5 +61,5 @@ for root, directories, files in os.walk(LFW_images):
                     # Calculating the amount of times a match has been found
                     correct += 1
 
-acc = correct / float(count) * 100.0
-print(acc)
+accuracy = correct / float(count) * 100.0
+print(accuracy)
